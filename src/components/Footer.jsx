@@ -1,16 +1,12 @@
-// component contains links to my social profiles.
-
 import React from 'react';
 
-function Footer() {
-  return (
-    <footer>
+const Footer = () => (
+  <footer>
       <p>
-        <a href="https://github.com/mandrade09" target="_blank" rel="noopener noreferrer">GitHub</a> | 
-        <a href="https://www.linkedin.com/in/andrade0909/" target="_blank" rel="noopener noreferrer">LinkedIn</a> | 
+        <a href="https://github.com/mandrade09" target="_blank" rel="noopener noreferrer">GitHub</a>  
+        <a href="https://www.linkedin.com/in/andrade0909/" target="_blank" rel="noopener noreferrer">LinkedIn</a>  
       </p>
-    </footer>
-  );
-}
+      </footer>
+);
 
 export default Footer;

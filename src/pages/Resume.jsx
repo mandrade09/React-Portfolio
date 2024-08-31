@@ -1,14 +1,16 @@
-// import React from 'react';
+import React from 'react';
 
-// import React from 'react';
+const Resume = () => (
+  <section id="resume">
+    <h2>Resume</h2>
+    <a href="path/to/resume.pdf" download>Download Resume</a>
+    <ul>
+      <li>Proficiency 1</li>
+      <li>Proficiency 2</li>
+      {/* Add more proficiencies */}
+    </ul>
+  </section>
+);
 
-// function Resume() {
-//   return (
-//     <section>
-//       <h2>Resume</h2>
-//       <p>Download my <a href="/path/to/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>.</p>
-//     </section>
-//   );
-// }
+export default Resume;
 
-// export default Resume;
