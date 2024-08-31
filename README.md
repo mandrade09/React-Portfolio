@@ -106,8 +106,8 @@ export default defineConfig({
 ## Project View
 The following shows the web application's appearance and functionality:
 
-![React Portfolio 1](<assets/images/React Portfolio 1.jpg>)
-![React Portfolio 1](<assets/images/React Portfolio 2.jpg>)
+![React Portfolio 1](<assets/images/React Portfolio 3.jpg>)
+![React Portfolio 1](<assets/images/React Portfolio 4.jpg>)
 
 ## Contact Information
 Thanks for visiting!
