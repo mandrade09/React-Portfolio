@@ -1,8 +1,8 @@
 {
     "name": "react-portfolio",
-    "version": "1.0.0",
+    "version": "0.0.0",
     "description": "A React portfolio to showcase work samples",
-    "main": "index.js",
+    "main": "main.jsx",
     "scripts": {
       "dev": "vite",
       "start": "vite",
@@ -16,35 +16,10 @@
       "react-router-dom": "^6.8.0"
     },
     "devDependencies": {
-      "@vitejs/plugin-react": "^2.2.0",
-      "vite": "^4.2.0",
-      "eslint": "^8.40.0",
-      "eslint-plugin-react": "^7.31.0"
-    },
-    "eslintConfig": {
-      "extends": [
-        "plugin:react/recommended",
-        "eslint:recommended"
-      ],
-      "plugins": [
-        "react"
-      ],
-      "rules": {
-        "react/react-in-jsx-scope": "off"
-      }
-    },
-    "browserslist": {
-      "production": [
-        ">0.2%",
-        "not dead",
-        "not op_mini all"
-      ],
-      "development": [
-        "last 1 chrome version",
-        "last 1 firefox version",
-        "last 1 safari version"
-      ]
-    },
-    "license": "MIT"
+      "@vitejs/plugin-react": "^4.0.0",
+      "vite": "^5.1.6",
+      "eslint": "^8.38.0",
+      "eslint-plugin-react": "^7.32.2"
+    }
   }
   
